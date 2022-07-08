@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Los Almendros Tenis Club</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="titulo_Principal">Los Almendros Tenis Club</h1>
+    <main>  
+      <h2>Tenis y Fútbol</h2>
+      <p><a href="http://losalmendrostenis.com.ar/" target="_blank" rel="noopener noreferrer">Los Almendros Tenis Club</a> es un emprendimiento familiar que está orientado a la recreación en familia o con amigos.</p>
+      
+      <ul>
+        <li><a href="#Tenis">Tenis</a></li>
+        <li><a href="#Fútbol">Fútbol</a></li>
+        <li><a href="#Bar">Bar</a></li>
+      </ul>
+
+      <h3 id="Tenis">Tenis</h3>
+      
+      <p>Contamos con 2 canchas de tenis de polvo de ladrillo iluminadas. Además, tenemos agua en ambas canchas para los jugadores. La escuelita abarca niños entre 4 y 16 años. Las clases particulares son dictadas por nuestro profesor y contamos con mas de 20 alumnos en total.</p>
+
+      <img id="cancha_1_Club" src="Cancha 1.jpg" alt="Cancha de Tenis del Club">
+      
+      <h3 id="Fútbol">Fútbol</h3>
+      
+      <p>Nuestra cancha de fútbol es de césped y la escuelita para nenes entre 4 y 10 años cuenta con más de 50 alumnos.</p>
+
+      <img id="cancha_De_Futbol" src="Cancha de Fútbol.jpg" alt="Cancha de Fútbol cesped sintetico">
+
+      <h3 id="Bar"><s>Bar</s></h3>
+
+      <p>El bar está abierto todo el día y ofrece servicios tanto de desayuno y merienda como de almuerzo y cena.</p>            
+    
+      <hr>
+      
+      <h3>Emails de los dueños</h3>
+      
+      <p>Emails:</p>      
+      <ul id="lista_Emails_Dueños">
+        <li><em>ezequielasantalla@gmail.com</em></li>
+        <li><em>julietaferrera@yahoo.com.ar</em></li>
+        <li><em>hugosantalla@gmail.com</em></li>
+      </ul>
+
+      <h3>Profesores</h3>
+
+      <p>Profesores:</p>
+
+      <ol id="lista_Profesores">
+        <li><strong>Ezequiel Santalla</strong></li>
+        <li><strong>Matías Calvo</strong></li>
+        <li><strong>Daniel Larreina</strong></li>
+      </ol>
+       
+      
+      <form action="/enviar-respuesta">
+      
+        <!-- Botones de Radio -->
+        <label for="derecho"><input id="derecho" type="radio" name="derecho-zurdo">Derecho</label><br>
+        <label for="zurdo"><input id="zurdo" type="radio" name="derecho-zurdo">Zurdo</label><br>
+        
+        <!-- Casillas de Verificación -->
+        <label for="Djokovic"><input id="Djokovic" type="checkbox" name="Jugador favorito">Djokovic</label>
+        <label for="Nadal"><input id="Nadal" type="checkbox" name="Jugador favorito">Nadal</label>
+        <label for="Federer"><input id="Federer" type="checkbox" name="Jugador favorito">Federer<br></label>
+        
+        <!-- Texto y Enviar -->
+        <input type="text" placeholder="Nombre" required><br>        
+        
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
